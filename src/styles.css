@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #111827;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.6rem;
+  transition: 0.3s;
+  background-color: #fee2e2;
+}
+
+.btn:hover {
+  background-color: #dc2626;
+  rotate: 360deg;
+}
+
+.inline-list {
+  text-align: center;
+  padding: 1rem;
+}
+
+.ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.3rem;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.name {
+  font-size: 1.4rem;
+  background-color: lightblue;
+  border: solid 1px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+hr {
+  height: 2px;
+  border: 4px;
+  background-color: red;
+}
+
+.image {
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  display: block;
+  border-radius: 2rem;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: left;
+  background-color: lightblue;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.desc {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border: solid 4px;
+  padding: 0.3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  background-color: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 3;
+}
+
+.link:hover {
+  background-color: #dc2626;
+  opacity: 1;
+  motion-rotation: 10deg;
+}
+
+.heading {
+  font-size: 2.2rem;
+  display: block;
+  margin: auto;
+  max-width: 60%;
+}
